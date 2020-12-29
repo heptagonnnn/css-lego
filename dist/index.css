@@ -1,0 +1,6 @@
+div {
+  -webkit-appearance: revert;
+     -moz-appearance: revert;
+          appearance: revert; }
+  div a {
+    color: red; }
