@@ -1,8 +1,8 @@
 {
-  "name": "lego.css",
+  "name": "css-lego",
   "version": "0.0.1",
-  "description": "a light-weight css frameork",
-  "main": "index.css",
+  "description": "a light-weight css framework",
+  "main": "dist/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
