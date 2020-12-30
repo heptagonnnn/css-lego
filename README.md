@@ -1,12 +1,12 @@
 # css-lego
 
 
-一款轻量级css库
+A light-weight css framework
 
 ## how to use
 
 ```javascript
-import "css-lego/index.css";
+import "css-lego";
 ```
 
 ## box

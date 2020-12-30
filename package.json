@@ -1,6 +1,6 @@
 {
   "name": "css-lego",
-  "version": "0.0.2",
+  "version": "0.0.2-a",
   "description": "a light-weight css framework",
   "main": "dist/index.css",
   "scripts": {
