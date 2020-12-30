@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html, body, blockquote, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-tap-highlight-color: transparent; /* 防止ios 出现点击div 出现选中效果*/
+}
+
+body, button, input, select, textarea {
+    font: 12px PingFang SC, Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+img {
+    border: 0;
+}

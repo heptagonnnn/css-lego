@@ -1,0 +1,179 @@
+// display
+
+.d-ib {
+    display: inline-block;
+}
+
+.d-b {
+    display: block;
+}
+
+
+// flex
+.flex {
+    display: flex;
+
+    &.flex-row {
+        flex-direction: row;
+    }
+
+    &.flex-column {
+        flex-direction: column;
+    }
+
+    &.flex-align-center {
+        align-items: center;
+    }
+
+    &.flex-justify-center {
+        justify-content: center;
+    }
+
+    &.flex-center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-fill {
+        flex: 1;
+    }
+}
+
+
+// position
+
+.pos-r {
+    position: relative;
+}
+
+
+.pos-a {
+    position: absolute;
+}
+
+.pos-f {
+    position: fixed;
+}
+
+
+.pos-horizon-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pos-vertical-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.pos-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pos-fill {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+// float
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+
+// width & height
+.w-100p {
+    width: 100%;
+}
+
+.h-100p {
+    height: 100%;
+}
+
+
+// margin & padding
+@for $i from 1 through 6 {
+
+    // padding
+    .p-t-#{$i * 5} {
+        padding-top: #{$i * 5}px;
+    }
+    .p-b-#{$i * 5} {
+        padding-bottom: #{$i * 5}px;
+    }
+    .p-l-#{$i * 5} {
+        padding-left: #{$i * 5}px;
+    }
+    .p-r-#{$i * 5} {
+        padding-right: #{$i * 5}px;
+    }
+    .p-a-#{$i * 5} {
+        padding: #{$i * 5}px;
+    }
+
+    // margin
+    .m-t-#{$i * 5} {
+        margin-top: #{$i * 5}px;
+    }
+    .m-b-#{$i * 5} {
+        margin-bottom: #{$i * 5}px;
+    }
+    .m-l-#{$i * 5} {
+        margin-left: #{$i * 5}px;
+    }
+    .m-r-#{$i * 5} {
+        margin-right: #{$i * 5}px;
+    }
+    .m-a-#{$i * 5} {
+        margin: #{$i * 5}px;
+    }
+}
+
+
+// background
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-fill {
+    background-size: 100%;
+}
+
+// img
+.fit-contain {
+    object-fit: contain;
+}
+
+.fit-cover {
+    object-fit: cover;
+}
+
+.fit-fill {
+    object-fit: fill;
+}

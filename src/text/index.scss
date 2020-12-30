@@ -1,0 +1,28 @@
+.t-c {
+    text-align: center;
+}
+
+.line-1, .line-2, .line-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.line-1 {
+    white-space: nowrap;
+}
+
+.line-2, .line-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.line-3 {
+    -webkit-line-clamp: 3;
+}
+
+
