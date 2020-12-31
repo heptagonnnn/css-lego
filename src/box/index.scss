@@ -16,9 +16,16 @@
     &.flex-row {
         flex-direction: row;
     }
+    &.flex-row-rev {
+        flex-direction: row-reverse;
+    }
 
     &.flex-column {
         flex-direction: column;
+    }
+
+    &.flex-column-rev {
+        flex-direction: column-reverse;
     }
 
     &.flex-align-center {
@@ -27,6 +34,10 @@
 
     &.flex-justify-center {
         justify-content: center;
+    }
+
+    &.flex-wrap {
+        flex-flow: wrap;
     }
 
     &.flex-center {
@@ -93,6 +104,19 @@
 .o-hidden {
     overflow: hidden;
 }
+.o-y-scroll {
+    overflow-y: scroll;
+}
+
+.o-x-scroll {
+    overflow-x: scroll;
+}
+
+.o-scroll {
+    overflow: scroll;
+}
+
+
 
 
 // width & height
