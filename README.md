@@ -16,6 +16,8 @@ import "css-lego";
 
 |selector | css | desc |
 |---|---| --- |
+|.border-box|box-sizing: border-box|
+|.content-box|box-sizing: content-box|
 |.d-b|display:block|
 |.flex|display:flex|
 |.flex .flex-row|flex-direction:row|

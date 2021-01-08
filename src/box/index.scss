@@ -1,3 +1,11 @@
+//box-sizing
+.border-box {
+    box-sizing: border-box;
+}
+.content-box {
+    box-sizing: content-box;
+}
+
 // display
 
 .d-ib {
@@ -130,7 +138,7 @@
 
 
 // margin & padding
-@for $i from 1 through 6 {
+@for $i from 1 through 10 {
 
     // padding
     .p-t-#{$i * 5} {
