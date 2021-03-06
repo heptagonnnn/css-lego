@@ -1,7 +1,9 @@
 # CHANGELOG
 
+## 0.0.22[2021-03-06]
+1. feature pointer class
 
-## 0.0.21 [2020-01-08]
+## 0.0.21 [2021-01-08]
 1. feature box-sizing class
 2. feature flex class
 

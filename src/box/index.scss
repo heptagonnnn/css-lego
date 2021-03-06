@@ -209,3 +209,10 @@
 .fit-fill {
     object-fit: fill;
 }
+
+
+.pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}
